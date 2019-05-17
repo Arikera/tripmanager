@@ -64,6 +64,7 @@ public class TripManagerTest {
 		assertSame(trip2, tripManager.findTrip("secret"));
 	}
 	
+	
 	@Test
 	public void testFindByPhotoCommentKeyword() throws Exception {
 		Trip trip2 = new Trip("", "description");
